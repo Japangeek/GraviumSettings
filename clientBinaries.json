@@ -1,0 +1,93 @@
+{
+  "clients": {
+    "graviumd": {
+      "version": "1.0.2.1",
+      "platforms": {
+        "linux": {
+          "ia32": {
+            "download": {
+              "url": "http://10.0.0.192/gravium-1.0.2.1-linux32.tar.gz",
+              "type": "tar",
+              "sha256": "23b1f299e2609bb72d6e3fe485ceb6fb13b5ae4419ea2015af7b0d3db9275fa7",
+              "bin": "gravium-1.0.2.1/bin/graviumd"
+            },
+            "bin": "graviumd",
+            "commands": {
+              "sanity": {
+                "args": [
+                  "-version"
+                ],
+                "output": [
+                  "Gravium Core Daemon",
+                  "1.0.2.1"
+                ]
+              }
+            }
+          },
+          "x64": {
+            "download": {
+              "url": "http://10.0.0.192/gravium-1.0.2.1-linux32.tar.gz",
+              "type": "tar",
+              "sha256": "23b1f299e2609bb72d6e3fe485ceb6fb13b5ae4419ea2015af7b0d3db9275fa7",
+              "bin": "gravium-1.0.2.1/bin/graviumd"
+            },
+            "bin": "graviumd",
+            "commands": {
+              "sanity": {
+                "args": [
+                  "-version"
+                ],
+                "output": [
+                  "Gravium Core Daemon",
+                  "1.0.2.1"
+                ]
+              }
+            }
+          }
+        },
+        "win": {
+          "ia32": {
+            "download": {
+              "url": "http://deft.host/gravium-win32.zip",
+              "type": "zip",
+              "sha256": "5816f9e17a064c7a5c1f95a28575a5fafe9a403966ea06a39e89b0973d17b850",
+              "bin": "gravium-1.0.2.1/bin/graviumd"
+            },
+            "bin": "graviumd.exe",
+            "commands": {
+              "sanity": {
+                "args": [
+                  "-version"
+                ],
+                "output": [
+                  "Gravium Core Daemon",
+                  "1.0.2.1"
+                ]
+              }
+            }
+          },
+          "x64": {
+            "download": {
+              "url": "http://deft.host/gravium-win32.zip",
+              "type": "zip",
+              "sha256": "5816f9e17a064c7a5c1f95a28575a5fafe9a403966ea06a39e89b0973d17b850",
+              "bin": "gravium-1.0.2.1/bin/graviumd"
+            },
+            "bin": "graviumd.exe",
+            "commands": {
+              "sanity": {
+                "args": [
+                  "-version"
+                ],
+                "output": [
+                  "Gravium Core Daemon",
+                  "1.0.2.1"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
