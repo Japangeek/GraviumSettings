@@ -51,7 +51,7 @@
               "url": "http://deft.host/gravium-win32.zip",
               "type": "zip",
               "sha256": "5816f9e17a064c7a5c1f95a28575a5fafe9a403966ea06a39e89b0973d17b850",
-              "bin": "gravium-1.0.2.1/bin/graviumd"
+              "bin": "gravium-win32/bin/graviumd"
             },
             "bin": "graviumd.exe",
             "commands": {
@@ -71,7 +71,7 @@
               "url": "http://deft.host/gravium-win32.zip",
               "type": "zip",
               "sha256": "5816f9e17a064c7a5c1f95a28575a5fafe9a403966ea06a39e89b0973d17b850",
-              "bin": "gravium-1.0.2.1/bin/graviumd"
+              "bin": "gravium-win32/bin/graviumd"
             },
             "bin": "graviumd.exe",
             "commands": {
