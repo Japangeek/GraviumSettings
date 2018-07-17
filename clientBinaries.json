@@ -9,7 +9,7 @@
               "url": "http://10.0.0.192/gravium-1.0.2.1-linux32.tar.gz",
               "type": "tar",
               "sha256": "23b1f299e2609bb72d6e3fe485ceb6fb13b5ae4419ea2015af7b0d3db9275fa7",
-              "bin": "gravium-1.0.2.1/bin/graviumd"
+              "bin": "gravium-win32/bin/graviumd"
             },
             "bin": "graviumd",
             "commands": {
@@ -29,7 +29,7 @@
               "url": "http://10.0.0.192/gravium-1.0.2.1-linux32.tar.gz",
               "type": "tar",
               "sha256": "23b1f299e2609bb72d6e3fe485ceb6fb13b5ae4419ea2015af7b0d3db9275fa7",
-              "bin": "gravium-1.0.2.1/bin/graviumd"
+              "bin": "gravium-win32/bin/graviumd"
             },
             "bin": "graviumd",
             "commands": {
